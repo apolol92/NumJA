@@ -7,7 +7,8 @@ package matrix;
  */
 public class JacobiIterator {
     /**
-     * This method calulate a approximation of x
+     * This method calulate a approximation of x..
+     * Be careful.. if A isn't diagonally dominant, then you shouldn't use Jacobi Iterator.. (test it before)
      * @param A, matrix
      * @param b, column vector
      * @param n, amount of iterations
