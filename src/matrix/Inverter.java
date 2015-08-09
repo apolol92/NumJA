@@ -17,8 +17,8 @@ public class Inverter {
         for(int identityColumn = 0; identityColumn < identityMatrix.COLS; identityColumn++) {
             Matrix eVec = identityMatrix.getColumnVector(identityColumn);
             if(A.diagonallyDominant()!=2) {
-                //Till now, we have got only the JacobiIterator to calculate a linear system of equations
-                return null;
+                //LU Decomposition
+                return LUDecomposition.decomposition(A,eVec);
             }
             Matrix xn = JacobiIterator.iterate(A,eVec,100); //A*xn = eVec
             System.out.println(A);
@@ -33,6 +33,24 @@ public class Inverter {
                     break;
             }
         }
+        return inverse;
+    }
+
+    /**
+     * This method create the inverse of a frobenius matrix.
+     * @param matrix, must be a frobenius matrix
+     * @return
+     */
+    public static Matrix FrobeniusInvert(Matrix matrix) {
+        Matrix inverse = matrix.copy();
+        for(int r = 0; r < matrix.ROWS; r++) {
+            for(int c = 0; c < matrix.COLS; c++) {
+                if(r!=c) {
+                    inverse.values[r][c] *= (-1);
+                }
+            }
+        }
+
         return inverse;
     }
 }

@@ -76,6 +76,19 @@ public class MatrixTester {
         mTest.values[2][1] = 2;
         mTest.values[2][2] = 3;
         System.out.println("Determinant of  mTest:\n"+Determinatus.det_laplace(mTest));
+        mTest.values[0][0] = 1;
+        mTest.values[0][1] = 2;
+        mTest.values[0][2] = 1;
+        mTest.values[1][0] = 2;
+        mTest.values[1][1] = 2;
+        mTest.values[1][2] = 3;
+        mTest.values[2][0] = 3;
+        mTest.values[2][1] = 5;
+        mTest.values[2][2] = 4;
+        b.values[0][0] = 4;
+        b.values[1][0] = 2;
+        b.values[2][0] = 5;
+        LUDecomposition.decomposition(mTest,b);
 
     }
 }
