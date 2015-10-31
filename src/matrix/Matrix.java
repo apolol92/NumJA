@@ -29,6 +29,13 @@ public class Matrix {
         this.values = new double[this.ROWS][this.COLS];
     }
 
+    public Matrix(String str) {
+        Matrix nMatrix = StrMatrixParser.createMatrixFrom(str);
+        this.ROWS = nMatrix.ROWS;
+        this.COLS = nMatrix.COLS;
+        this.values = nMatrix.copyValues();
+    }
+
     /**
      * This method returns a print of the matrix
      * @return nice matrix print
@@ -157,7 +164,7 @@ public class Matrix {
     public Matrix multiply(Matrix matrix2) {
         Matrix result = null;
         try {
-            checkMultiplyCondition(this,matrix2);
+            checkMultiplyCondition(this, matrix2);
             result = new Matrix(this.ROWS,matrix2.COLS);
            for(int r1 = 0; r1 < this.ROWS; r1++) {
                for(int c2 = 0;c2<matrix2.COLS;c2++) {
@@ -285,5 +292,23 @@ public class Matrix {
 
         }
         return typ;
+    }
+
+    /**
+     * Copy the values from this matrix
+     * @return
+     */
+    public double[][] copyValues() {
+        double[][] cValues = new double[this.ROWS][this.COLS];
+        for(int r = 0; r < this.ROWS; r++) {
+            for(int c = 0; c < this.COLS; c++) {
+                cValues[r][c] = this.values[r][c];
+            }
+        }
+        return cValues;
+    }
+
+    public double getDeterminant() {
+        return Determinatus.det_laplace(this);
     }
 }

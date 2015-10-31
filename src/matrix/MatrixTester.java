@@ -89,6 +89,9 @@ public class MatrixTester {
         b.values[1][0] = 2;
         b.values[2][0] = 5;
         LUDecomposition.decomposition(mTest,b);
+        String testStr = "2,3,5;5,2;7,6,9;";
+        Matrix nMatrix = new Matrix(testStr);
+        System.out.println(nMatrix.toString());
 
     }
 }
