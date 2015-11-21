@@ -1,31 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3561a946-6412-424e-962b-d96846b84e7d" name="Default" comment="Project Structure changed..&#10;Started with JUnit Tests..&#10;Added JUnit-Libraries..">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\main\Program.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\Determinatus.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\Inverter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\JacobiIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\LUDecomposition.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\Matrix.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\MatrixTester.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\out\production\numja\matrix\StrMatrixParser.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\main\Program.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\main\package-info.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\Cramer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\Determinatus.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\Inverter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\JacobiIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\LUDecomposition.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\Matrix.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\MatrixTester.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\StrMatrixParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Dennis\Documents\Programmierung\Java\NumJA\src\matrix\package-info.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/numja.iml" afterPath="$PROJECT_DIR$/numja.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="3561a946-6412-424e-962b-d96846b84e7d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java" afterPath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java" afterPath="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NumJA-master.iws" />
@@ -39,6 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/numja$MatrixExtraMethodsTest_testMatrixCopy.coverage" NAME="MatrixExtraMethodsTest.testMatrixCopy Coverage Results" MODIFIED="1448113285298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test_code.matrix_tests.*</FILTER>
+    </SUITE>
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -48,34 +31,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Program.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_code/main/Program.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MatrixOperationsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22149837">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.77850163">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Determinatus.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_code/matrix/Determinatus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,37 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main_code/matrix/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StrMatrixParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_code/matrix/StrMatrixParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatrixTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_code/matrix/MatrixTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main_code/main/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+              <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -185,8 +118,8 @@
         <option value="$PROJECT_DIR$/src/test_code/TestMe.java" />
         <option value="$PROJECT_DIR$/src/test_code/MatrixTest.java" />
         <option value="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixTest.java" />
-        <option value="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java" />
+        <option value="$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java" />
       </list>
     </option>
   </component>
@@ -387,7 +320,54 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.MatrixExtraMethodsTest.testMatrixToString">
+  <component name="RunManager" selected="JUnit.All in numja">
+    <configuration default="false" name="MatrixExtraMethodsTest.testMatrixCopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test_code.matrix_tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="numja" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test_code.matrix_tests" />
+      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixExtraMethodsTest" />
+      <option name="METHOD_NAME" value="testMatrixCopy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in numja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="numja" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="MatrixExtraMethodsTest.testCopyValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -414,72 +394,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MatrixExtraMethodsTest.testMatrixConstructorGivenCsvString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="main_code in numja" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="test_code.matrix_tests.*" />
+          <option name="PATTERN" value="main_code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="numja" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test_code.matrix_tests" />
-      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixExtraMethodsTest" />
-      <option name="METHOD_NAME" value="testMatrixConstructorGivenCsvString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MatrixExtraMethodsTest.test3x3MatrixConstructorGivenCsvString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test_code.matrix_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="numja" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test_code.matrix_tests" />
-      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixExtraMethodsTest" />
-      <option name="METHOD_NAME" value="test3x3MatrixConstructorGivenCsvString" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MatrixExtraMethodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="test_code.matrix_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="numja" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="test_code.matrix_tests" />
-      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixExtraMethodsTest" />
+      <option name="PACKAGE_NAME" value="main_code" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -492,7 +420,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="MatrixExtraMethodsTest.testMatrixToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MatrixOperationsTest.test2x2Multiply3x2ExpectError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="test_code.matrix_tests.*" />
@@ -503,8 +431,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="test_code.matrix_tests" />
-      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixExtraMethodsTest" />
-      <option name="METHOD_NAME" value="testMatrixToString" />
+      <option name="MAIN_CLASS_NAME" value="test_code.matrix_tests.MatrixOperationsTest" />
+      <option name="METHOD_NAME" value="test2x2Multiply3x2ExpectError" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -666,18 +594,18 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testCopyValues" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixConstructorGivenCsvString" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.test3x3MatrixConstructorGivenCsvString" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixToString" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixCopy" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in numja" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testCopyValues" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.main_code in numja" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixOperationsTest.test2x2Multiply3x2ExpectError" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixToString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.test3x3MatrixConstructorGivenCsvString" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixConstructorGivenCsvString" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in numja" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MatrixOperationsTest.test2x2Multiply3x2ExpectError" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.main_code in numja" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testMatrixCopy" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.MatrixExtraMethodsTest.testCopyValues" />
       </list>
     </recent_temporary>
@@ -693,6 +621,13 @@
       <option name="number" value="Default" />
       <updated>1438902470598</updated>
     </task>
+    <task id="LOCAL-00001" summary="Project Structure changed..&#10;Started with JUnit Tests..&#10;Added JUnit-Libraries..">
+      <created>1448112712670</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448112712670</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -701,13 +636,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16614583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -716,7 +652,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39916405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -857,46 +793,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_code/main/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_code/main/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/MatrixTester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/StrMatrixParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/Determinatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/libs/junit-4.12.jar!/org/junit/internal/requests/FilterRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6081772">
@@ -905,10 +801,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main_code/main/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38762215">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/Determinatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60912055">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/StrMatrixParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1596091">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main_code/matrix/MatrixTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110749185">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main_code/main/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.110749185">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main_code/matrix/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <caret line="166" column="0" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -916,7 +852,7 @@
     <entry file="file://$PROJECT_DIR$/src/test_code/matrix_tests/MatrixExtraMethodsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -925,8 +861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test_code/matrix_tests/MatrixOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22149837">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.77850163">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

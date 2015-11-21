@@ -49,6 +49,12 @@ public class MatrixExtraMethodsTest {
     }
 
     @Test
+    public void testMatrixCopy() {
+        Matrix A = M1_2x2.copy();
+        Assert.assertArrayEquals(M1_2x2.values,A.values);
+    }
+
+    @Test
     public void testCopyValues() {
         Matrix A = new Matrix(1,2);
         A.values[0][0]=23;

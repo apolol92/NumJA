@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 public class MatrixOperationsTest {
 
     @Test
-    public void testAddtionGivenAnotherMatrixExpectSumMatrix() {
+    public void testAdditionGivenAnotherMatrixExpectSumMatrix() {
         Matrix A = new Matrix(1, 2);
         A.values[0][0] = 1;
         A.values[0][1] = 1;
@@ -28,7 +28,7 @@ public class MatrixOperationsTest {
     }
 
     @Test
-    public void testSelfAddtionGivenAnotherMatrixExpectSumMatrix() {
+    public void testSelfAdditionGivenAnotherMatrixExpectSumMatrix() {
         Matrix A = new Matrix(1, 2);
         A.values[0][0] = 1;
         A.values[0][1] = 1;
@@ -73,6 +73,28 @@ public class MatrixOperationsTest {
         Assert.assertArrayEquals(DifferenceMatrix.copyValues(), A.copyValues());
     }
 
+    @Test
+    public void test2x1Multiply1x2ExpectProductMatrix() {
+        Matrix A = new Matrix("1,2;");
+        Matrix B = new Matrix("3;4;");
+        Matrix Result = new Matrix("11;");
+        Assert.assertArrayEquals(Result.copyValues(),A.multiply(B).copyValues());
+    }
 
+    @Test
+    public void test2x2Multiply2x2ExpectProductMatrix() {
+        Matrix A = new Matrix("1,2;2,5;");
+        Matrix B = new Matrix("3,4;2,1;");
+        Matrix Result = new Matrix("7,6;16,13;");
+        Assert.assertArrayEquals(Result.copyValues(),A.multiply(B).copyValues());
+    }
+
+    @Test(expected = Exception.class)
+    public void test2x2Multiply3x2ExpectErrorWrongDimension() {
+        Matrix A = new Matrix("1,2;2,5;");
+        Matrix B = new Matrix("3,4;2,1;4,6;");
+        Matrix Result = new Matrix("7,6;16,13;");
+        Assert.assertArrayEquals(Result.copyValues(),A.multiply(B).copyValues());
+    }
 
 }
