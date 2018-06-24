@@ -311,4 +311,18 @@ public class Matrix {
     public double getDeterminant() {
         return Determinatus.det_laplace(this);
     }
+
+    public Matrix transpose() {
+    	
+    	Matrix mTrans = new Matrix(this.COLS, this.ROWS);
+    	
+    	for(int row = 0; row < this.ROWS; row++) {
+    		for(int column = 0; column < this.COLS; column++) {
+    			mTrans.values[column][row] = this.values[row][column];
+    		}
+    	}
+    	
+    	return mTrans;
+    	
+    }
 }

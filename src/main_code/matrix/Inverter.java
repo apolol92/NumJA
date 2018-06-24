@@ -11,7 +11,7 @@ public class Inverter {
      * @param A is the matrix
      * @return the inverted matrix
      */
-    public static Matrix inverte(Matrix A) {
+    public static Matrix invert(Matrix A) {
         Matrix identityMatrix = A.getIdentityMatrix();
         Matrix inverse = new Matrix(1,1);
         for(int identityColumn = 0; identityColumn < identityMatrix.COLS; identityColumn++) {
